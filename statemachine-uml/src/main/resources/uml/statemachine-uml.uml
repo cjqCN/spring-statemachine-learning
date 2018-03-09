@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cfujcCN2EeizONWQ1SRsZg" name="statemachine-uml">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_cjr2YCN2EeizONWQ1SRsZg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_cf0DACN2EeizONWQ1SRsZg" name="StateMachine1" visibility="public">
+    <region xmi:type="uml:Region" xmi:id="_cf1RICN2EeizONWQ1SRsZg" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_hQcrACN3EeizONWQ1SRsZg" source="_aTbOgCN3EeizONWQ1SRsZg" target="_bpozgCN3EeizONWQ1SRsZg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_k2b6QCN3EeizONWQ1SRsZg" source="_bpozgCN3EeizONWQ1SRsZg" target="_czGV8CN3EeizONWQ1SRsZg">
+        <trigger xmi:type="uml:Trigger" xmi:id="_X-K_oCN9EeizONWQ1SRsZg" event="_G8YkgCN7EeizONWQ1SRsZg"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_UyW9MCN4EeizONWQ1SRsZg" source="_czGV8CN3EeizONWQ1SRsZg" target="_bpozgCN3EeizONWQ1SRsZg">
+        <trigger xmi:type="uml:Trigger" xmi:id="_FDzVcCN_EeizONWQ1SRsZg" event="_AQq6cCN7EeizONWQ1SRsZg"/>
+      </transition>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_aTbOgCN3EeizONWQ1SRsZg" name="Initial"/>
+      <subvertex xmi:type="uml:State" xmi:id="_bpozgCN3EeizONWQ1SRsZg" name="S1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_czGV8CN3EeizONWQ1SRsZg" name="S2"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Signal" xmi:id="_-hnXoCN6EeizONWQ1SRsZg" name="Signal1"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_AQq6cCN7EeizONWQ1SRsZg" name="SignalEvent1" signal="_-hnXoCN6EeizONWQ1SRsZg"/>
+  <packagedElement xmi:type="uml:Signal" xmi:id="_F2ukACN7EeizONWQ1SRsZg" name="Signal2"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_G8YkgCN7EeizONWQ1SRsZg" name="SignalEvent2" signal="_F2ukACN7EeizONWQ1SRsZg"/>
+</uml:Model>
