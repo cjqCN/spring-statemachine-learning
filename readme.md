@@ -1,8 +1,10 @@
 # spring statemachine
-- [官方文档](https://docs.spring.io/spring-statemachine/docs/1.2.8.RELEASE/reference/htmlsingle)
+本教程基于spring-statemachine 2.0.0.RELEASE版本。
+
+- [官方文档](https://docs.spring.io/spring-statemachine/docs/2.0.0.RELEASE/reference/htmlsingle)
 - [使用教程](https://github.com/cjqCN/spring-statemachine-learning/blob/master/使用教程.md)
 - [简单入门例子](https://github.com/cjqCN/spring-statemachine-learning/blob/master/简单入门.md)
-
+- [使用Eclipse-Papyrus建立state-machine模型](https://github.com/cjqCN/spring-statemachine-learning/blob/master/statemachineWithEclipse-papyrus.md)
 
 
 ## 什么是spring statemachine
