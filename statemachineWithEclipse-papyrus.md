@@ -68,12 +68,19 @@ Papyrus是一个基于Eclipse平台UML2建模工具，需要在Eclipse上以插�
 
 ### 创建papyrus-model
 
-![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model1.png?raw=true)
+- 选择创建Papyrus Model  
+![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model1.png?raw=true)  
+- 选择UML  
+![创建papyrus-model2](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model2.png?raw=true)  
+- 选择文件目录，在resources目录中  
+![创建papyrus-model3](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model3.png?raw=true)  
+- 创建state machine视图  
+![创建papyrus-model4](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model4.png?raw=true)  
+- 文件结构
+ - statemachine-uml.di  状态机视图
+ - statemachine-uml.notation 记录视图中的UI布局
+ - statemachine-uml.uml UML模型文件  
+![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/file-struct.png?raw=true) 
 
-![创建papyrus-model2](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model2.png?raw=true)
-
-![创建papyrus-model3](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model3.png?raw=true)
-
-![创建papyrus-model4](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model4.png?raw=true)
-
-![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/file-struct.png?raw=true)
+- 完成创建  
+![创建papyrus-model完成](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-finsh.png?raw=true) 
