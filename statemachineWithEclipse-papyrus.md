@@ -10,7 +10,7 @@ Papyrus是一个基于Eclipse平台UML2建模工具，需要在Eclipse上以插�
 
 ## 简单入门
 创建一个maven项目来进入该教程   
-[项目地址](https://github.com/cjqCN/spring-statemachine-learning/tree/master/statemachine-uml) `https://github.com/cjqCN/spring-statemachine-learning/tree/master/statemachine-uml`
+[项目地址](/statemachine-uml) `https://github.com/cjqCN/spring-statemachine-learning/tree/master/statemachine-uml`
 
 ### 导入依赖
 - 除了`spring-statemachine-core`模块，还需要`spring-statemachine-uml`的支持。  
