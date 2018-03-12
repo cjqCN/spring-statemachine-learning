@@ -98,10 +98,10 @@ Papyrus是一个基于Eclipse平台UML2建模工具，需要在Eclipse上以插�
 ![statemachine-build3](/pic/statemachine-build3.png)   
 
 - 在状态S1与S2的两个Transition分别添加基于SignalEvent1、SignalEvent2的触发器  
-![statemachine-build4](/master/pic/statemachine-build4.png)   
+![statemachine-build4](/pic/statemachine-build4.png)   
 
 - 完成建模   
-![statemachine-build5](/master/pic/statemachine-build5.png)   
+![statemachine-build5](/pic/statemachine-build5.png)   
 
 ### 生成UML数据
 完成建模后，点击保存，自动生成UML数据   
