@@ -70,38 +70,38 @@ Papyrus是一个基于Eclipse平台UML2建模工具，需要在Eclipse上以插�
 ### 创建papyrus-model
 
 - 选择创建Papyrus Model  
-![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model1.png?raw=true)  
+![创建papyrus-model1](/pic/create-papyrus-model1.png)  
 - 选择UML  
-![创建papyrus-model2](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model2.png?raw=true)  
+![创建papyrus-model2](/pic/create-papyrus-model2.png)  
 - 选择文件目录，在resources目录中  
-![创建papyrus-model3](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model3.png?raw=true)  
+![创建papyrus-model3](/pic/create-papyrus-model3.png)  
 - 创建state machine视图  
-![创建papyrus-model4](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-model4.png?raw=true)  
+![创建papyrus-model4](/pic/create-papyrus-model4.png)  
 - 文件结构
  - statemachine-uml.di  状态机视图
  - statemachine-uml.notation 记录视图中的UI布局
  - statemachine-uml.uml UML模型文件  
-![创建papyrus-model1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/file-struct.png?raw=true) 
+![创建papyrus-model1](/pic/file-struct.png) 
 
 - 完成创建  
-![创建papyrus-model完成](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/create-papyrus-finsh.png?raw=true) 
+![创建papyrus-model完成](/pic/create-papyrus-finsh.png) 
 
 
 ### 开始建模
 - 通过从palette板拖拽组件，建立以下模型：  
-![statemachine-build1](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/statemachine-build1.png?raw=true)
+![statemachine-build1](/pic/statemachine-build1.png)
 
 - 在根元素下创建两个Signal以及两个SignalEvent，操作：RootElement→New Child→Signal & RootElement→New Child→SignalEvent.  
-![statemachine-build2](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/statemachine-build2.png?raw=true)
+![statemachine-build2](/pic/statemachine-build2.png)
 
 - 分别设置SignalEvent1的Signal为Signal1，SignalEvent2的Signal为Signal2  
-![statemachine-build3](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/statemachine-build3.png?raw=true)   
+![statemachine-build3](/pic/statemachine-build3.png)   
 
 - 在状态S1与S2的两个Transition分别添加基于SignalEvent1、SignalEvent2的触发器  
-![statemachine-build4](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/statemachine-build4.png?raw=true)   
+![statemachine-build4](/master/pic/statemachine-build4.png)   
 
 - 完成建模   
-![statemachine-build5](https://github.com/cjqCN/spring-statemachine-learning/blob/master/pic/statemachine-build5.png?raw=true)   
+![statemachine-build5](/master/pic/statemachine-build5.png)   
 
 ### 生成UML数据
 完成建模后，点击保存，自动生成UML数据   
