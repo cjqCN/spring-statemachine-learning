@@ -1,4 +1,4 @@
-package com.spring.statemachine.jpa.core;
+package com.spring.statemachine;
 
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
@@ -20,8 +20,8 @@ public class StateMachineAdapter<S, E, T> {
     }
 
     @SneakyThrows
-    public void persist(StateMachine<S, E> stateMachine, T t) {
-        persister.persist(stateMachine, t);
+    public void persist(StateMachine<S, E> stateMachine, T order) {
+        persister.persist(stateMachine, order);
     }
 
     public StateMachine<S, E> create() {

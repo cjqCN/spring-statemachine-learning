@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.spring.statemachine</groupId>
-    <artifactId>statemachine-jpa</artifactId>
+    <groupId>com.spring</groupId>
+    <artifactId>statemachine-data</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>statemachine-data-redis</module>
+        <module>statemachine-data-common</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -33,19 +38,12 @@
             <version>${statemachine.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.statemachine/spring-statemachine-data-common -->
-        <dependency>
-            <groupId>org.springframework.statemachine</groupId>
-            <artifactId>spring-statemachine-data-common</artifactId>
-            <version>${statemachine.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
+            <version>1.5.9.RELEASE</version>
             <scope>test</scope>
         </dependency>
-
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
@@ -54,7 +52,6 @@
             <version>1.16.20</version>
             <scope>provided</scope>
         </dependency>
-
 
 
     </dependencies>

@@ -4,7 +4,9 @@
 - [官方文档](https://docs.spring.io/spring-statemachine/docs/2.0.0.RELEASE/reference/htmlsingle)
 - [使用教程](/使用教程.md)
 - [简单入门例子](/简单入门.md)
+- [状态机持久化](/statemachine-data "状态机持久化")
 - [使用Eclipse-Papyrus建立state-machine模型](/statemachineWithEclipse-papyrus.md)
+
 
 
 ## 什么是spring statemachine

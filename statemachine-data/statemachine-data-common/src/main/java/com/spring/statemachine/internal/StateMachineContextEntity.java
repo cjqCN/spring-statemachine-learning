@@ -1,11 +1,10 @@
-package com.spring.statemachine.jpa.core;
+package com.spring.statemachine.internal;
 
-import com.sun.corba.se.spi.ior.Identifiable;
 import org.springframework.statemachine.StateMachineContext;
 
 import java.io.Serializable;
 
-public interface ContextEntity<S, E, ID extends Serializable> extends Identifiable {
+public interface StateMachineContextEntity<S, E> extends Serializable {
 
     StateMachineContext<S, E> getStateMachineContext();
 
